@@ -1,0 +1,85 @@
+body {
+    font-family: "Montserrat", sans-serif;
+ 
+}
+
+
+header {
+    background-color: darkred;
+    border: 20px;
+    border-style: double;
+    padding: 19px;
+    margin-left: auto;
+    display: block;
+    border-radius: 80px;
+    margin-right: auto;
+    /* width: 50%; */
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: white;
+}
+
+.logo{
+
+    width:100px;
+    border-radius: 20px;
+}
+.sec1:nth-child(odd):nth-child(odd){
+    background-color: yellow;
+}
+.sec1:nth-child(even){
+    background-color: greenyellow;
+}
+.sec2:nth-child(odd){
+    background-color: orangered;
+}
+.sec2:nth-child(even){
+    background-color: orange;
+}
+.sec3:nth-child(odd){
+    background-color: goldenrod;
+}
+.sec3:nth-child(even){
+    background-color: gold;
+}
+.sec4:nth-child(odd){
+    background-color: midnightblue;
+}
+.sec4:nth-child(even){
+    background-color: grey;
+}
+label{
+    color: white;
+}
+input[type="text"]:focus{
+    background-color: grey;
+}
+
+section{
+    border: 2px solid;
+    padding: 2px;
+    margin: -8px;
+}
+button {
+    color:white;
+    background-color:blue;
+    border-radius: 50%;
+
+}
+.button:hover{
+    background-color:purple;
+}
+footer{
+    background-color: darkmagenta;
+    border: 2px solid;
+    padding: 1px;
+    margin: 8px;
+    margin-left: -8px;
+}
